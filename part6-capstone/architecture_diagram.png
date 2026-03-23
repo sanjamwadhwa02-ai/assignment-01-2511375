@@ -1,0 +1,9 @@
+[ICU Devices] ----\
+                   → [Data Lake] → [ML Model] → Predictions
+[EHR System] -----/
+
+[EHR System] → [OLTP DB]
+
+[Data Lake] → [Data Warehouse] → Reports Dashboard
+
+[Doctor Query] → [Embedding Model] → [Vector DB] → Results
